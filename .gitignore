@@ -1,0 +1,9 @@
+*.iml
+_docpress
+node_modules
+*~
+.DS_Store
+github
+build
+ghpagesrepo
+markdownrepo
