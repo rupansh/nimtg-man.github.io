@@ -7,15 +7,17 @@ node_js:
 
 env:
   global:
-    - GIT_NAME: Raphiel Rollerscaperers
+    - GIT_NAME: "Raphiel Rollerscaperers"
     - GIT_EMAIL: raphielscape@outlook.com
     - GITHUB_REPO: RaphielGang/raphielgang.github.io
     - GIT_SOURCE: _docpress
+    - GIT_BRANCH: master
+
+script:
+- npm test
+- npm install docpress && ./node_modules/.bin/docpress build
 
 after_success:
-  - npm run coveralls
-
-after_script:
   - |
       declare exitCode;
       # -- [1] -------------------------------------------------------
