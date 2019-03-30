@@ -1,4 +1,4 @@
-# Magic docs
+# Caramell docs
 
 This repository contains all the documentation for RaphielGang
 
