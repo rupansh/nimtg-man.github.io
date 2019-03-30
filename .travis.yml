@@ -19,12 +19,7 @@ script:
 
 after_success:
   - |
-      declare exitCode;
-      # -- [1] -------------------------------------------------------
-      $(npm bin)/travis-after-all
-      exitCode=$?
-      # -- [2] -------------------------------------------------------
-      if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" -a $exitCode -eq 0 ]; then
+      if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then
         npm install docpress git-update-ghpages
         ./node_modules/.bin/docpress build && ./node_modules/.bin/git-update-ghpages -e
       fi
