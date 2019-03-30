@@ -10,7 +10,7 @@ env:
     - GIT_NAME: "Raphiel Rollerscaperers"
     - GIT_EMAIL: raphielscape@outlook.com
     - GITHUB_REPO: RaphielGang/raphielgang.github.io
-    - GIT_SOURCE: _docpress
+    - GIT_SOURCE: build
     - GIT_BRANCH: master
 
 script:
