@@ -2,9 +2,9 @@
 
 ### Before you start
 
-Clone this repo `git clone https://github.com/baalajimaestro/Telegram-UserBot`
+Clone this repo `git clone https://github.com/RaphielGang/Telegram-UserBot`
 
-Pip install all the requirements, `pip3 install -r requirements.txt`
+Install all the requirements with pip `pip3 install -r requirements.txt`
 
 Get your api-id (called `API_KEY` in this bot) and API_HASH from my.telegram.org.
 
@@ -14,45 +14,42 @@ Optional: Create an empty group, add Marie, or any forks, get the group id, copy
 
 ### Database
 
-If you wish to use a database-dependent module (eg: locks, notes, userinfo, users, filters, welcomes),
-you'll need to have a database installed on your system. I use postgres, so I recommend using it for optimal compatibility.
+If you wish to use a database-dependent module (eg: locks, notes, userinfo, users, filters, welcomes), you'll need to have a database installed on your system. I use Postgres, so I recommend using it for optimal compatibility.
 
-In the case of postgres, this is how you would set up a the database on a debian/ubuntu system. Other distributions may vary.
+In the case of postgres, this is how you would set up a the database on a Debian and its derivatives system. Other distributions may vary.
 
-- install postgresql:
+- Install PostgreSQL:
 
 `sudo apt-get update && sudo apt-get install postgresql`
 
-- change to the postgres user:
+- Change to the Postgres user:
 
 `sudo su - postgres`
 
-- create a new database user (change YOUR_USER appropriately):
+- Create a new database user (change YOUR_USER appropriately):
 
 `createuser -P -s -e YOUR_USER`
 
 This will be followed by you needing to input your password.
 
-- create a new database table:
+- Create a new database table:
 
 `createdb -O YOUR_USER YOUR_DB_NAME`
 
 Change YOUR_USER and YOUR_DB_NAME appropriately.
 
-- finally:
+- Finally:
 
 `psql YOUR_DB_NAME -h YOUR_HOST YOUR_USER`
 
-This will allow you to connect to your database via your terminal.
-By default, YOUR_HOST should be 127.0.0.1:5432.
+This will allow you to connect to your database via your terminal. By default, YOUR_HOST should be 127.0.0.1:5432.
 
 You should now be able to build your database URI. This will be:
 
 `sqldbtype://username:pw@hostname:port/db_name`
 
-Replace sqldbtype with whichever db youre using (eg postgres, mysql, sqllite, etc)
+Replace sqldbtype with whichever db youre using (eg PostgreSQL, MySQL, SQLite, etc)
 repeat for your username, password, hostname (localhost?), port (5432?), and db name.
-
 
 ### Configuration
 
