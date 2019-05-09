@@ -48,7 +48,7 @@ You should now be able to build your database URI. This will be:
 
 `sqldbtype://username:pw@hostname:port/db_name`
 
-Replace sqldbtype with whichever db youre using (eg PostgreSQL, MySQL, SQLite, etc)
+Replace sqldbtype with whichever db youre using (eg PostgreSQL, mysql, sqllite, etc)
 repeat for your username, password, hostname (localhost?), port (5432?), and db name.
 
 ### Configuration
@@ -83,29 +83,3 @@ If you can't have a config.env file, or you missed to type something on `config.
 Once you've setup your database and your configuration (see below) is complete, simply run:
 
 `python3 -m userbot`
-
-
-### Running on Termux
-
-Userbot setup on termux:
-
-- **REQUIRED:**
-
-`pkg install clang curl python python-dev postgresql-dev libcrypt-dev libffi-dev openssl-dev libxml2-dev libxslt-dev libjpeg-dev libjpeg-turbo-dev ndk-sysroot make`
-
-- **OPTIONAL (Only if you are not planning to use any external DB. Also you can omit this if you don't plan of using a DB at all)**
-
-`pg_ctl -D $PREFIX/var/lib/postgresqlstart`
-
-
-`createdb <DBNAME>`
-
-
-`createuser <USER>`
-
-
-`psql <DBNAME> -h 127.0.0.1 <USER>`
-
-- **Installing Requirements:** `pip3 install -r requirements.txt`
-
-- **Finally Run it now:** `python3 -m userbot`
