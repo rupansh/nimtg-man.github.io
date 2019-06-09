@@ -1,15 +1,11 @@
-# No-SQL Shows up when I do configured database!
+# Databases connections are failing!
 
 Try to check if: 
 
  1. Your config is incorrect
- 2. Make sure in config.env, It must have DATABASE_URL. If you have DB_URI or DATABASE_URI please change it to DATABASE_URL
+ 2. Make sure in config.env, It must have MONGO_DB_URI. If you have DB_URI or MONGO_DB_URL please change it to MONGO_DB_URI
  3. You're entered invalid database url
-
-
-You could also try local database host!
-Depending on your distro, install `sqlite` package 
-and use `DATABASE_URL = 'sqlite:///userbotdb'` in config.env
+ 4. Make sure you followed all the steps mentioned under database setup
 
 # How to make a new module?
 Creating a module has been simplified as much as possible - but do not hesitate to suggest further simplification.
