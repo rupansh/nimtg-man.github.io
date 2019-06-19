@@ -11,6 +11,7 @@ env:
     - GIT_EMAIL: rupanshsekar@hotmail.com
     - GITHUB_REPO: rupansh/nimtg-man.github.io
     - GIT_SOURCE: build
+    - github_token: $GITHUB_TOKEN
     - GIT_BRANCH: master
 
 script:
