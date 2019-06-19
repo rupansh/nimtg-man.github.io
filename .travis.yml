@@ -7,9 +7,9 @@ node_js:
 
 env:
   global:
-    - GIT_NAME: "Raphiel Rollerscaperers"
-    - GIT_EMAIL: raphielscape@outlook.com
-    - GITHUB_REPO: RaphielGang/raphielgang.github.io
+    - GIT_NAME: "Rupansh Sekar"
+    - GIT_EMAIL: rupanshsekar@hotmail.com
+    - GITHUB_REPO: rupansh/nimtg-man.github.io
     - GIT_SOURCE: build
     - GIT_BRANCH: master
 

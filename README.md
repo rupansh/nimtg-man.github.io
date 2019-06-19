@@ -1,6 +1,6 @@
 # Caramell docs
 
-This repository contains all the documentation for RaphielGang
+This repository contains all the documentation for nim-tg-bot
 
 ## Testing changes
 

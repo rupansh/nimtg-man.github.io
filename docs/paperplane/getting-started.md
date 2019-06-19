@@ -1,11 +1,10 @@
 Basically your regular homepage
 ===============================
 
-Welcome to the Paperplane Project documentation page!
-This page will holding most of the documentations for Paperplane project
+Welcome to the nim-tg-manager Project documentation page!
 
 ### What's this?
 
-A modular Telegram Userbot running on python3 with an MongoDB and Redis Backend.
+A modular Telegram Bot running on Nim 0.2 with a Redis Backend.
 
-Started up as a simple bot, which helps with deleting messages and other stuffs when I didn't possess a smartphone (selecting each message indeed difficult) with a ton of meme features kanged from [SkittBot](https://github.com/skittles9823/SkittBot), it has evolved, becoming extremely modular and simple to use.
+The project is still in early development! Even though most of the basic modules are added, I have TO-DO stuff to do all the time.
