@@ -1,4 +1,4 @@
-# Initial bringups for Paperplane
+# Initial bringups for nim-tg-manager
 
 ### Before you start
 

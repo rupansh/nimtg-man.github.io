@@ -3,9 +3,9 @@ Current Commands
 
 # Management
 
-- `promote` (Admins only) : reply with `/promote` to a message to promote the sender
+- `promote` (Admins only) : reply with `/promote` to a message to promote the sender (`/promote <id>` works as well)
 
-- `demote` (Admins only) : reply with `/demote` to a message to demote the sender
+- `demote` (Admins only) : reply with `/demote` to a message to demote the sender (`/demote <id>` works as well)
 
 - `pin` (Admins only) : reply with `/pin` to a message to pin a message in the group
 
@@ -37,6 +37,8 @@ Valid time format: 1d, 2d, 30m, 1h, 4h etc..
 
 - `unmute` (Admins only) : reply with `/unmute` to a message to unmute the sender
 
+- you can use `<command> arguments(if any) <userid>` for these as well. eg `/tmute 1h 88119` or `/mute 88119`
+
 # Info stuff
 
 - `id` : send `/id` to get the group's id, reply to a user/bot's message to get their id
@@ -55,15 +57,15 @@ Valid time format: 1d, 2d, 30m, 1h, 4h etc..
 
 - `getsticker` : reply with `/getsticker` to a sticker to fetch it in downloadable webp format(with png extension to fool api)
 
-- `kang` : Do i really need to tell you anything? :D
+- `kang` : Do i really need to tell you anything? :D. supports images as well
 
 # Blacklist
 
-- `addblacklist` (Admins only) : send `/blacklist <string>` to blacklist a string. where string is any valid unicode string. Any message this the blacklisted string is deleted automatically
+- `addblacklist` (Admins only) : send `/blacklist <string>` to blacklist a string. where string is any valid unicode string. Any message with the blacklisted string is deleted automatically
 
 - `rmblacklist` (Admins only) : send `/rmblacklist <string>` to remove it from blacklist
 
-- `getblacklist` : send `/getblacklist <string>` to get a list of active strings in blacklist
+- `getblacklist` : send `/getblacklist` to get a list of active strings in blacklist
 
 # Flood check
 
@@ -98,10 +100,19 @@ The person person is automatically muted if they are found in a chat with the bo
 
 # Rules
 
-- `setrules` (Admins only) : reply with `/setrules` to a message to set the rules for the group
+- `setrules` (Admins only) : reply with `/setrules` to a message to set the rules for the group( `/setrules <message> works as well` )
 
 - `rules` : send `/rules` to get the rules of the group
 
 # Intro
 
 - `start` : send `/start` and the bot will greet you
+
+# Memes
+
+- some reference taken from skittbot
+
+- `owo` : reply with `/owo` to a message to get owo-ified text
+- `stretch`: reply with `/stretch` to a message to get stretched text
+- `mock` : reply with `/mock` to a message to get spongemock text
+- `zalgo` : reply with `/zalgo` to a message to get zalgofied text
