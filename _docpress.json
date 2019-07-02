@@ -48,7 +48,69 @@
             "title": "Available Commands",
             "source": "docs/paperplane/cmds.md",
             "url": "paperplane/cmds.html",
-            "slug": "paperplanecmds"
+            "slug": "paperplanecmds",
+            "headings": [
+              {
+                "title": "Management",
+                "depth": 3,
+                "id": "management"
+              },
+              {
+                "title": "Restrictions",
+                "depth": 3,
+                "id": "restrictions"
+              },
+              {
+                "title": "Info stuff",
+                "depth": 3,
+                "id": "info-stuff"
+              },
+              {
+                "title": "Messages",
+                "depth": 3,
+                "id": "messages"
+              },
+              {
+                "title": "Stickers",
+                "depth": 3,
+                "id": "stickers"
+              },
+              {
+                "title": "Blacklist",
+                "depth": 3,
+                "id": "blacklist"
+              },
+              {
+                "title": "Flood check",
+                "depth": 3,
+                "id": "flood-check"
+              },
+              {
+                "title": "Notes",
+                "depth": 3,
+                "id": "notes"
+              },
+              {
+                "title": "Gbans",
+                "depth": 3,
+                "id": "gbans"
+              },
+              {
+                "title": "Rules",
+                "depth": 3,
+                "id": "rules"
+              },
+              {
+                "title": "Intro",
+                "depth": 3,
+                "id": "intro"
+              },
+              {
+                "title": "Memes",
+                "depth": 3,
+                "id": "memes"
+              }
+            ]
           },
           {
             "title": "Contributors",
@@ -94,7 +156,69 @@
       "source": "docs/paperplane/cmds.md",
       "title": "Available Commands - caramell.",
       "pageTitle": "Available Commands",
-      "slug": "paperplanecmds"
+      "slug": "paperplanecmds",
+      "headings": [
+        {
+          "title": "Management",
+          "depth": 3,
+          "id": "management"
+        },
+        {
+          "title": "Restrictions",
+          "depth": 3,
+          "id": "restrictions"
+        },
+        {
+          "title": "Info stuff",
+          "depth": 3,
+          "id": "info-stuff"
+        },
+        {
+          "title": "Messages",
+          "depth": 3,
+          "id": "messages"
+        },
+        {
+          "title": "Stickers",
+          "depth": 3,
+          "id": "stickers"
+        },
+        {
+          "title": "Blacklist",
+          "depth": 3,
+          "id": "blacklist"
+        },
+        {
+          "title": "Flood check",
+          "depth": 3,
+          "id": "flood-check"
+        },
+        {
+          "title": "Notes",
+          "depth": 3,
+          "id": "notes"
+        },
+        {
+          "title": "Gbans",
+          "depth": 3,
+          "id": "gbans"
+        },
+        {
+          "title": "Rules",
+          "depth": 3,
+          "id": "rules"
+        },
+        {
+          "title": "Intro",
+          "depth": 3,
+          "id": "intro"
+        },
+        {
+          "title": "Memes",
+          "depth": 3,
+          "id": "memes"
+        }
+      ]
     },
     "paperplane/contributors.html": {
       "source": "docs/paperplane/contributors.md",

@@ -28,6 +28,32 @@
                   <li class="menu-item -level-2"><a class="link title  link-paperplanegetting-started" href="../paperplane/getting-started.html">Getting Started</a>
                   </li>
                   <li class="menu-item -level-2"><a class="link title -active link-paperplanecmds" href="../paperplane/cmds.html">Available Commands</a>
+                    <ul class="headings heading-list">
+                      <li class="heading-item -depth-3"><a class="hlink link-management" href="#management">Management</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-restrictions" href="#restrictions">Restrictions</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-info-stuff" href="#info-stuff">Info stuff</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-messages" href="#messages">Messages</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-stickers" href="#stickers">Stickers</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-blacklist" href="#blacklist">Blacklist</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-flood-check" href="#flood-check">Flood check</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-notes" href="#notes">Notes</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-gbans" href="#gbans">Gbans</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-rules" href="#rules">Rules</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-intro" href="#intro">Intro</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-memes" href="#memes">Memes</a>
+                      </li>
+                    </ul>
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-paperplanecontributors" href="../paperplane/contributors.html">Contributors</a>
                   </li>
@@ -43,7 +69,7 @@
           </div>
         </div>
         <div class="markdown-body"><h1 id="current-commands">Current Commands</h1>
-<h1 id="management">Management</h1>
+<h3 id="management">Management</h3>
 <ul>
 <li>
 <p><code>promote</code> (Admins only) : reply with <code>/promote</code> to a message to promote the sender (<code>/promote &lt;id&gt;</code> works as well)</p>
@@ -64,7 +90,7 @@
 <p><code>admins</code> : send <code>/admins</code> to get a list of admins</p>
 </li>
 </ul>
-<h1 id="restrictions">Restrictions</h1>
+<h3 id="restrictions">Restrictions</h3>
 <ul>
 <li>
 <p><code>ban</code> (Admins only) : reply with <code>/ban</code> to a message to ban the sender</p>
@@ -99,7 +125,7 @@ Valid time format: 1d, 2d, 30m, 1h, 4h etc..</p>
 <p>you can use <code>&lt;command&gt; arguments(if any) &lt;userid&gt;</code> for these as well. eg <code>/tmute 1h 88119</code> or <code>/mute 88119</code></p>
 </li>
 </ul>
-<h1 id="info-stuff">Info stuff</h1>
+<h3 id="info-stuff">Info stuff</h3>
 <ul>
 <li>
 <p><code>id</code> : send <code>/id</code> to get the group&apos;s id, reply to a user/bot&apos;s message to get their id</p>
@@ -111,7 +137,7 @@ Valid time format: 1d, 2d, 30m, 1h, 4h etc..</p>
 <p><code>ping</code> : send <code>/ping</code> to ping telegram api and get the time in ms</p>
 </li>
 </ul>
-<h1 id="messages">Messages</h1>
+<h3 id="messages">Messages</h3>
 <ul>
 <li>
 <p><code>purge</code> (Admins only) : reply with <code>/purge</code> to delete all the messages till that point</p>
@@ -120,7 +146,7 @@ Valid time format: 1d, 2d, 30m, 1h, 4h etc..</p>
 <p><code>del</code> (Admins only) : reply with <code>/del</code> to delete a message</p>
 </li>
 </ul>
-<h1 id="stickers">Stickers</h1>
+<h3 id="stickers">Stickers</h3>
 <ul>
 <li>
 <p><code>getsticker</code> : reply with <code>/getsticker</code> to a sticker to fetch it in downloadable webp format(with png extension to fool api)</p>
@@ -129,7 +155,7 @@ Valid time format: 1d, 2d, 30m, 1h, 4h etc..</p>
 <p><code>kang</code> : Do i really need to tell you anything? :D. supports images as well</p>
 </li>
 </ul>
-<h1 id="blacklist">Blacklist</h1>
+<h3 id="blacklist">Blacklist</h3>
 <ul>
 <li>
 <p><code>addblacklist</code> (Admins only) : send <code>/blacklist &lt;string&gt;</code> to blacklist a string. where string is any valid unicode string. Any message with the blacklisted string is deleted automatically</p>
@@ -141,7 +167,7 @@ Valid time format: 1d, 2d, 30m, 1h, 4h etc..</p>
 <p><code>getblacklist</code> : send <code>/getblacklist</code> to get a list of active strings in blacklist</p>
 </li>
 </ul>
-<h1 id="flood-check">Flood check</h1>
+<h3 id="flood-check">Flood check</h3>
 <ul>
 <li>
 <p><code>setflood</code> (Admins only) : send <code>/setflood &lt;integer&gt;</code> to set floodlimit in the chat. A user is auto banned
@@ -154,7 +180,7 @@ if they exceed the limit</p>
 <p><code>getflood</code> (Admins only) : send <code>/getflood</code> to get the current flood setting</p>
 </li>
 </ul>
-<h1 id="notes">Notes</h1>
+<h3 id="notes">Notes</h3>
 <ul>
 <li>
 <p><code>save</code> (Admins only) : reply with <code>/save</code> to any message(Including media) to add it to notes</p>
@@ -169,7 +195,7 @@ if they exceed the limit</p>
 <p><code>saved</code> : send <code>/saved</code> to get a list of notes</p>
 </li>
 </ul>
-<h1 id="gbans">Gbans</h1>
+<h3 id="gbans">Gbans</h3>
 <ul>
 <li>
 <p><code>gban</code> (Sudo/Owner only) : reply with <code>/gban</code> to any message or send <code>/gban &lt;userid&gt;</code> to gban a person.
@@ -186,7 +212,7 @@ The person person is automatically muted if they are found in a chat with the bo
 <p><code>ungmute</code> (Sudo/Owner only) : reply with <code>/ungmute</code> to any message or send <code>/ungmute &lt;userid&gt;</code> to remove a person from gmute list. The person is unmuted from previously muted groups(Only where they were muted because of gmute filter)</p>
 </li>
 </ul>
-<h1 id="rules">Rules</h1>
+<h3 id="rules">Rules</h3>
 <ul>
 <li>
 <p><code>setrules</code> (Admins only) : reply with <code>/setrules</code> to a message to set the rules for the group( <code>/setrules &lt;message&gt; works as well</code> )</p>
@@ -195,11 +221,11 @@ The person person is automatically muted if they are found in a chat with the bo
 <p><code>rules</code> : send <code>/rules</code> to get the rules of the group</p>
 </li>
 </ul>
-<h1 id="intro">Intro</h1>
+<h3 id="intro">Intro</h3>
 <ul>
 <li><code>start</code> : send <code>/start</code> and the bot will greet you</li>
 </ul>
-<h1 id="memes">Memes</h1>
+<h3 id="memes">Memes</h3>
 <ul>
 <li>
 <p>some reference taken from skittbot</p>
