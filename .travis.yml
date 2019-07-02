@@ -20,7 +20,7 @@ script:
 
 after_success:
   - |
-      if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then
+      if [ "$TRAVIS_BRANCH" = "build" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then
         npm install docpress git-update-ghpages
         ./node_modules/.bin/docpress build && ./node_modules/.bin/git-update-ghpages -e
       fi
