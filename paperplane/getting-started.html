@@ -29,6 +29,10 @@
                     <ul class="headings heading-list">
                       <li class="heading-item -depth-3"><a class="hlink link-what's-this" href="#what's-this">What's this?</a>
                       </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-before-you-start" href="#before-you-start">Before you start</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-starting-the-bot" href="#starting-the-bot">Starting the bot</a>
+                      </li>
                     </ul>
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-paperplanecmds" href="../paperplane/cmds.html">Available Commands</a>
@@ -51,6 +55,19 @@
 <h3 id="what&apos;s-this">What&apos;s this?</h3>
 <p>A modular Telegram Bot running on Nim 0.2 with a Redis Backend.</p>
 <p>The project is still in early development! Even though most of the basic modules are added, I have TO-DO stuff to do all the time.</p>
+<h3 id="before-you-start">Before you start</h3>
+<p>Clone this repo <code>git clone https://github.com/rupansh/nim-tg-manager</code></p>
+<p>Make a file called config.ini and while referring to example-config.ini, do the following-</p>
+<p>Get your bot api key from BotFather.
+Set Owner ID and Sudo ID(s)
+Create an empty channel with any random username and set its username in CHANNEL_USER (<em><strong>Mandatory btw</strong></em>)</p>
+<p>Install redis on your machine/server (Windows/OSX/Linux) and start it!</p>
+<p>Finally, compile and run the bot
+<code>cd nim-tg-manager</code>
+<code>nimble build -d:release</code></p>
+<h3 id="starting-the-bot">Starting the bot</h3>
+<p>Once you&apos;ve setup your redis and config:</p>
+<p><code>./tg_manager</code></p>
 
         </div>
         <div class="footer-nav">

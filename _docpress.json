@@ -31,6 +31,16 @@
                 "title": "What's this?",
                 "depth": 3,
                 "id": "what's-this"
+              },
+              {
+                "title": "Before you start",
+                "depth": 3,
+                "id": "before-you-start"
+              },
+              {
+                "title": "Starting the bot",
+                "depth": 3,
+                "id": "starting-the-bot"
               }
             ]
           },
@@ -67,6 +77,16 @@
           "title": "What's this?",
           "depth": 3,
           "id": "what's-this"
+        },
+        {
+          "title": "Before you start",
+          "depth": 3,
+          "id": "before-you-start"
+        },
+        {
+          "title": "Starting the bot",
+          "depth": 3,
+          "id": "starting-the-bot"
         }
       ]
     },
