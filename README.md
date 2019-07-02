@@ -1,1 +1,0 @@
-# nimtg-man.github.io

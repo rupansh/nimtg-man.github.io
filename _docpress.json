@@ -1,0 +1,96 @@
+{
+  "toc": {
+    "sections": [
+      {
+        "title": "caramell.",
+        "source": "docs/intro.md",
+        "url": "index.html",
+        "slug": "index"
+      },
+      {
+        "title": "Overview - What up here?",
+        "sections": [
+          {
+            "title": "Intro",
+            "source": "docs/intro.md",
+            "url": "index.html",
+            "slug": "index-2"
+          }
+        ]
+      },
+      {
+        "title": "Paperplane",
+        "sections": [
+          {
+            "title": "Getting Started",
+            "source": "docs/paperplane/getting-started.md",
+            "url": "paperplane/getting-started.html",
+            "slug": "paperplanegetting-started",
+            "headings": [
+              {
+                "title": "What's this?",
+                "depth": 3,
+                "id": "what's-this"
+              }
+            ]
+          },
+          {
+            "title": "Available Commands",
+            "source": "docs/paperplane/cmds.md",
+            "url": "paperplane/cmds.html",
+            "slug": "paperplanecmds"
+          },
+          {
+            "title": "Contributors",
+            "source": "docs/paperplane/contributors.md",
+            "url": "paperplane/contributors.html",
+            "slug": "paperplanecontributors"
+          }
+        ]
+      }
+    ]
+  },
+  "index": {
+    "index.html": {
+      "source": "docs/intro.md",
+      "title": "Intro - caramell.",
+      "pageTitle": "Intro",
+      "slug": "index-2"
+    },
+    "paperplane/getting-started.html": {
+      "source": "docs/paperplane/getting-started.md",
+      "title": "Getting Started - caramell.",
+      "pageTitle": "Getting Started",
+      "slug": "paperplanegetting-started",
+      "headings": [
+        {
+          "title": "What's this?",
+          "depth": 3,
+          "id": "what's-this"
+        }
+      ]
+    },
+    "paperplane/cmds.html": {
+      "source": "docs/paperplane/cmds.md",
+      "title": "Available Commands - caramell.",
+      "pageTitle": "Available Commands",
+      "slug": "paperplanecmds"
+    },
+    "paperplane/contributors.html": {
+      "source": "docs/paperplane/contributors.md",
+      "title": "Contributors - caramell.",
+      "pageTitle": "Contributors",
+      "slug": "paperplanecontributors"
+    }
+  },
+  "sources": {
+    "docs/intro.md": "index.html",
+    "docs/paperplane/getting-started.md": "paperplane/getting-started.html",
+    "docs/paperplane/cmds.md": "paperplane/cmds.html",
+    "docs/paperplane/contributors.md": "paperplane/contributors.html",
+    "docs/LICENSE": "LICENSE",
+    "docs/scapedocs.png": "scapedocs.png",
+    "docs/style.css": "style.css",
+    "docs/yeet.png": "yeet.png"
+  }
+}

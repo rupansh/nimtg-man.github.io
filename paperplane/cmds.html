@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/style.css?t=90051322">
+    <link rel="stylesheet" href="../style.css?t=3f8e0ca2">
+    <script src="../assets/script.js?t=93f1a66c"></script>
+    <title>Available Commands - caramell.</title>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="menu toc-menu">
+        <ul>
+          <li class="menu-item -level-0 -parent">
+            <ul class="submenu">
+              <li class="menu-item -level-1"><a class="link title  link-index" href="../index.html">caramell.</a>
+              </li>
+              <li class="menu-item -level-1 -parent"><span class="title">Overview - What up here?</span>
+                <ul class="submenu">
+                  <li class="menu-item -level-2"><a class="link title  link-index-2" href="../index.html">Intro</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item -level-1 -parent"><span class="title">Paperplane</span>
+                <ul class="submenu">
+                  <li class="menu-item -level-2"><a class="link title  link-paperplanegetting-started" href="../paperplane/getting-started.html">Getting Started</a>
+                  </li>
+                  <li class="menu-item -level-2"><a class="link title -active link-paperplanecmds" href="../paperplane/cmds.html">Available Commands</a>
+                  </li>
+                  <li class="menu-item -level-2"><a class="link title  link-paperplanecontributors" href="../paperplane/contributors.html">Contributors</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="body page-paperplanecmds">
+        <div class="header-nav">
+          <div class="right">
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id="current-commands">Current Commands</h1>
+<h1 id="management">Management</h1>
+<ul>
+<li>
+<p><code>promote</code> (Admins only) : reply with <code>/promote</code> to a message to promote the sender (<code>/promote &lt;id&gt;</code> works as well)</p>
+</li>
+<li>
+<p><code>demote</code> (Admins only) : reply with <code>/demote</code> to a message to demote the sender (<code>/demote &lt;id&gt;</code> works as well)</p>
+</li>
+<li>
+<p><code>pin</code> (Admins only) : reply with <code>/pin</code> to a message to pin a message in the group</p>
+</li>
+<li>
+<p><code>unpin</code> (Admins only) : send <code>/unpin</code> to unpin currently pinned message</p>
+</li>
+<li>
+<p><code>invite</code> : send <code>/invite</code> to get a unique invite link for the group</p>
+</li>
+<li>
+<p><code>admins</code> : send <code>/admins</code> to get a list of admins</p>
+</li>
+</ul>
+<h1 id="restrictions">Restrictions</h1>
+<ul>
+<li>
+<p><code>ban</code> (Admins only) : reply with <code>/ban</code> to a message to ban the sender</p>
+</li>
+<li>
+<p><code>tban</code> (Admins only) : reply with <code>/tban &lt;time&gt;</code> to a message to temporarily ban for the specified time.
+Valid time format: 1d, 2d, 30m, 1h, 4h, etc..</p>
+</li>
+<li>
+<p><code>banme</code> : send <code>/banme</code> to ban yourself</p>
+</li>
+<li>
+<p><code>unban</code> (Admins only) : reply with <code>/unban</code> to a message to unban the sender</p>
+</li>
+<li>
+<p><code>kick</code> (Admins only) : reply with <code>/kick</code> to a message to kick the sender</p>
+</li>
+<li>
+<p><code>kickme</code> : send <code>/kickme</code> to kick yourself</p>
+</li>
+<li>
+<p><code>mute</code> (Admins only) : reply with <code>/mute</code> to a message to mute the sender</p>
+</li>
+<li>
+<p><code>tmute</code> (Admins only) : reply with <code>/tmute &lt;time&gt;</code> to a message to temporarily mute the sender for the specified time.
+Valid time format: 1d, 2d, 30m, 1h, 4h etc..</p>
+</li>
+<li>
+<p><code>unmute</code> (Admins only) : reply with <code>/unmute</code> to a message to unmute the sender</p>
+</li>
+<li>
+<p>you can use <code>&lt;command&gt; arguments(if any) &lt;userid&gt;</code> for these as well. eg <code>/tmute 1h 88119</code> or <code>/mute 88119</code></p>
+</li>
+</ul>
+<h1 id="info-stuff">Info stuff</h1>
+<ul>
+<li>
+<p><code>id</code> : send <code>/id</code> to get the group&apos;s id, reply to a user/bot&apos;s message to get their id</p>
+</li>
+<li>
+<p><code>info</code> : send <code>/info</code> to get information about yourself, reply to a user/bot&apos;s message to get information about them</p>
+</li>
+<li>
+<p><code>ping</code> : send <code>/ping</code> to ping telegram api and get the time in ms</p>
+</li>
+</ul>
+<h1 id="messages">Messages</h1>
+<ul>
+<li>
+<p><code>purge</code> (Admins only) : reply with <code>/purge</code> to delete all the messages till that point</p>
+</li>
+<li>
+<p><code>del</code> (Admins only) : reply with <code>/del</code> to delete a message</p>
+</li>
+</ul>
+<h1 id="stickers">Stickers</h1>
+<ul>
+<li>
+<p><code>getsticker</code> : reply with <code>/getsticker</code> to a sticker to fetch it in downloadable webp format(with png extension to fool api)</p>
+</li>
+<li>
+<p><code>kang</code> : Do i really need to tell you anything? :D. supports images as well</p>
+</li>
+</ul>
+<h1 id="blacklist">Blacklist</h1>
+<ul>
+<li>
+<p><code>addblacklist</code> (Admins only) : send <code>/blacklist &lt;string&gt;</code> to blacklist a string. where string is any valid unicode string. Any message with the blacklisted string is deleted automatically</p>
+</li>
+<li>
+<p><code>rmblacklist</code> (Admins only) : send <code>/rmblacklist &lt;string&gt;</code> to remove it from blacklist</p>
+</li>
+<li>
+<p><code>getblacklist</code> : send <code>/getblacklist</code> to get a list of active strings in blacklist</p>
+</li>
+</ul>
+<h1 id="flood-check">Flood check</h1>
+<ul>
+<li>
+<p><code>setflood</code> (Admins only) : send <code>/setflood &lt;integer&gt;</code> to set floodlimit in the chat. A user is auto banned
+if they exceed the limit</p>
+</li>
+<li>
+<p><code>clearflood</code> (Admins only) : send <code>/clearflood</code> to clear the flood setting</p>
+</li>
+<li>
+<p><code>getflood</code> (Admins only) : send <code>/getflood</code> to get the current flood setting</p>
+</li>
+</ul>
+<h1 id="notes">Notes</h1>
+<ul>
+<li>
+<p><code>save</code> (Admins only) : reply with <code>/save</code> to any message(Including media) to add it to notes</p>
+</li>
+<li>
+<p><code>get</code> : send <code>/get &lt;notename&gt;</code> to fetch a note</p>
+</li>
+<li>
+<p><code>clear</code> (Admins only) : send <code>/clear</code> to clear all notes</p>
+</li>
+<li>
+<p><code>saved</code> : send <code>/saved</code> to get a list of notes</p>
+</li>
+</ul>
+<h1 id="gbans">Gbans</h1>
+<ul>
+<li>
+<p><code>gban</code> (Sudo/Owner only) : reply with <code>/gban</code> to any message or send <code>/gban &lt;userid&gt;</code> to gban a person.
+The person is automatically banned if they are found in a chat with the bot</p>
+</li>
+<li>
+<p><code>ungban</code> (Sudo/Owner only) : reply with <code>/ungban</code> to any message or send <code>/ungban &lt;userid&gt;</code> to ungban a person. The person is unbanned from previously banned groups(Only where they were banned because of gban filter)</p>
+</li>
+<li>
+<p><code>gmute</code> (Sudo/Owner only) : reply with <code>/gmute</code> to any message or send <code>/gmute &lt;userid&gt;</code> to gmute a person.
+The person person is automatically muted if they are found in a chat with the bot</p>
+</li>
+<li>
+<p><code>ungmute</code> (Sudo/Owner only) : reply with <code>/ungmute</code> to any message or send <code>/ungmute &lt;userid&gt;</code> to remove a person from gmute list. The person is unmuted from previously muted groups(Only where they were muted because of gmute filter)</p>
+</li>
+</ul>
+<h1 id="rules">Rules</h1>
+<ul>
+<li>
+<p><code>setrules</code> (Admins only) : reply with <code>/setrules</code> to a message to set the rules for the group( <code>/setrules &lt;message&gt; works as well</code> )</p>
+</li>
+<li>
+<p><code>rules</code> : send <code>/rules</code> to get the rules of the group</p>
+</li>
+</ul>
+<h1 id="intro">Intro</h1>
+<ul>
+<li><code>start</code> : send <code>/start</code> and the bot will greet you</li>
+</ul>
+<h1 id="memes">Memes</h1>
+<ul>
+<li>
+<p>some reference taken from skittbot</p>
+</li>
+<li>
+<p><code>owo</code> : reply with <code>/owo</code> to a message to get owo-ified text</p>
+</li>
+<li>
+<p><code>stretch</code>: reply with <code>/stretch</code> to a message to get stretched text</p>
+</li>
+<li>
+<p><code>mock</code> : reply with <code>/mock</code> to a message to get spongemock text</p>
+</li>
+<li>
+<p><code>zalgo</code> : reply with <code>/zalgo</code> to a message to get zalgofied text</p>
+</li>
+</ul>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="../paperplane/getting-started.html"><span class="title">Getting Started</span></a></div>
+          <div class="right"><a href="../paperplane/contributors.html"><span class="label">Next: </span><span class="title">Contributors</span></a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
