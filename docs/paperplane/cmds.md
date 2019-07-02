@@ -1,7 +1,7 @@
 Current Commands
 =============
 
-# Management
+### Management
 
 - `promote` (Admins only) : reply with `/promote` to a message to promote the sender (`/promote <id>` works as well)
 
@@ -15,7 +15,7 @@ Current Commands
 
 - `admins` : send `/admins` to get a list of admins
 
-# Restrictions
+### Restrictions
 
 - `ban` (Admins only) : reply with `/ban` to a message to ban the sender
 
@@ -39,7 +39,7 @@ Valid time format: 1d, 2d, 30m, 1h, 4h etc..
 
 - you can use `<command> arguments(if any) <userid>` for these as well. eg `/tmute 1h 88119` or `/mute 88119`
 
-# Info stuff
+### Info stuff
 
 - `id` : send `/id` to get the group's id, reply to a user/bot's message to get their id
 
@@ -47,19 +47,19 @@ Valid time format: 1d, 2d, 30m, 1h, 4h etc..
 
 - `ping` : send `/ping` to ping telegram api and get the time in ms
 
-# Messages
+### Messages
 
 - `purge` (Admins only) : reply with `/purge` to delete all the messages till that point
 
 - `del` (Admins only) : reply with `/del` to delete a message
 
-# Stickers
+### Stickers
 
 - `getsticker` : reply with `/getsticker` to a sticker to fetch it in downloadable webp format(with png extension to fool api)
 
 - `kang` : Do i really need to tell you anything? :D. supports images as well
 
-# Blacklist
+### Blacklist
 
 - `addblacklist` (Admins only) : send `/blacklist <string>` to blacklist a string. where string is any valid unicode string. Any message with the blacklisted string is deleted automatically
 
@@ -67,7 +67,7 @@ Valid time format: 1d, 2d, 30m, 1h, 4h etc..
 
 - `getblacklist` : send `/getblacklist` to get a list of active strings in blacklist
 
-# Flood check
+### Flood check
 
 - `setflood` (Admins only) : send `/setflood <integer>` to set floodlimit in the chat. A user is auto banned
 if they exceed the limit
@@ -76,7 +76,7 @@ if they exceed the limit
 
 - `getflood` (Admins only) : send `/getflood` to get the current flood setting
 
-# Notes
+### Notes
 
 - `save` (Admins only) : reply with `/save` to any message(Including media) to add it to notes
 
@@ -86,7 +86,7 @@ if they exceed the limit
 
 - `saved` : send `/saved` to get a list of notes
 
-# Gbans
+### Gbans
 
 - `gban` (Sudo/Owner only) : reply with `/gban` to any message or send `/gban <userid>` to gban a person.
 The person is automatically banned if they are found in a chat with the bot
@@ -98,17 +98,17 @@ The person person is automatically muted if they are found in a chat with the bo
 
 - `ungmute` (Sudo/Owner only) : reply with `/ungmute` to any message or send `/ungmute <userid>` to remove a person from gmute list. The person is unmuted from previously muted groups(Only where they were muted because of gmute filter)
 
-# Rules
+### Rules
 
 - `setrules` (Admins only) : reply with `/setrules` to a message to set the rules for the group( `/setrules <message> works as well` )
 
 - `rules` : send `/rules` to get the rules of the group
 
-# Intro
+### Intro
 
 - `start` : send `/start` and the bot will greet you
 
-# Memes
+### Memes
 
 - some reference taken from skittbot
 
