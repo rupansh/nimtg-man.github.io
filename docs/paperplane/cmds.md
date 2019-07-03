@@ -107,6 +107,7 @@ The person person is automatically muted if they are found in a chat with the bo
 ### Intro
 
 - `start` : send `/start` and the bot will greet you
+- `help` : send `/help` and the bot will give a link to this page and the source code
 
 ### Memes
 
