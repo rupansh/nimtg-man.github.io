@@ -24,6 +24,7 @@ Install redis on your machine/server (Windows/OSX/Linux) and start it!
 
 Finally, compile and run the bot
 `cd nim-tg-manager`
+
 `nimble build -d:release`
 
 ### Starting the bot
