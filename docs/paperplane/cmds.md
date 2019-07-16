@@ -117,3 +117,9 @@ The person person is automatically muted if they are found in a chat with the bo
 - `stretch`: reply with `/stretch` to a message to get stretched text
 - `mock` : reply with `/mock` to a message to get spongemock text
 - `zalgo` : reply with `/zalgo` to a message to get zalgofied text
+
+### Disable Commands
+
+- `disable`(Admins only): send `/disable <cmd>` to disable a command. eg- `/disable id`
+- `enable`(Admins only): send `/enable <cmd>` to enable a disabled command. eg- `/enable id`
+- `getdisabled`(Admins only): send `/getdisabled` to get a list of disabled commands.
