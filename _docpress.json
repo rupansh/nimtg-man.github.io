@@ -109,6 +109,11 @@
                 "title": "Memes",
                 "depth": 3,
                 "id": "memes"
+              },
+              {
+                "title": "Disable Commands",
+                "depth": 3,
+                "id": "disable-commands"
               }
             ]
           },
@@ -217,6 +222,11 @@
           "title": "Memes",
           "depth": 3,
           "id": "memes"
+        },
+        {
+          "title": "Disable Commands",
+          "depth": 3,
+          "id": "disable-commands"
         }
       ]
     },
