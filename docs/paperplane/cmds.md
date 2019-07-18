@@ -82,7 +82,7 @@ if they exceed the limit
 
 - `get` : send `/get <notename>` to fetch a note
 
-- `clear` (Admins only) : send `/clear` to clear all notes
+- `clear` (Admins only) : send `/clear <notename>` to clear a note
 
 - `saved` : send `/saved` to get a list of notes
 
